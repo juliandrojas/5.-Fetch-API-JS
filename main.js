@@ -12,7 +12,7 @@ async function getCards() {
         paintCards(result);
     } catch (error) {
         console.log(error);
-    }
+    } 
 }
 function paintCards(cards) {
     const sectionCards = document.querySelector("#cards");
